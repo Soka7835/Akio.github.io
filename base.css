@@ -1,0 +1,23 @@
+@charset "uft-8";
+h1{
+    /* 行間記号を指定するプロパティ */
+    list-style: none;
+    /* パディング(コンテンツとボーダーの間のスペース)のサイズを指定するプロパティ */
+    padding-left: 0px;
+}
+
+h1{
+    /*ブロック要素をインライン要素に変更する  */
+    display: inline;
+    /* マージン(隣接する要素同士のスペース)のサイズを指定するプロパティ */
+    margin: 0 16px 0 0;
+    /*パディング：4か所まとめて指定もできる  */
+    padding: 4px;
+    /*ボーダー  */
+    border: 1px solid rgb(82, 24, 24);
+    /* ボーダーの角を丸める */
+    border-radius: 4px;
+    /* 背景色：グラデーション */
+    background: linear-gradient(#6e3e3e,#888);
+    }
+
